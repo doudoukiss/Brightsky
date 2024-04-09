@@ -10,6 +10,9 @@
 		3D5922302B81EDAC00289126 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59222F2B81EDAC00289126 /* LocationManager.swift */; };
 		3D5922322B81EDD000289126 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5922312B81EDD000289126 /* IAPManager.swift */; };
 		3D5922342B81EDE200289126 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5922332B81EDE200289126 /* WeatherManager.swift */; };
+		3D5922362B81EE7B00289126 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5922352B81EE7B00289126 /* TabViewController.swift */; };
+		3D5922382B81EE8A00289126 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5922372B81EE8A00289126 /* SettingsViewController.swift */; };
+		3D59223A2B81EE9600289126 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5922392B81EE9600289126 /* WeatherViewController.swift */; };
 		3DCC16D72B286F6100E10835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC16D62B286F6100E10835 /* AppDelegate.swift */; };
 		3DCC16D92B286F6100E10835 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC16D82B286F6100E10835 /* SceneDelegate.swift */; };
 		3DCC16DB2B286F6100E10835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC16DA2B286F6100E10835 /* ViewController.swift */; };
@@ -22,6 +25,9 @@
 		3D59222F2B81EDAC00289126 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		3D5922312B81EDD000289126 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
 		3D5922332B81EDE200289126 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		3D5922352B81EE7B00289126 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		3D5922372B81EE8A00289126 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3D5922392B81EE9600289126 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		3DCC16D32B286F6100E10835 /* Brightsky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brightsky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCC16D62B286F6100E10835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DCC16D82B286F6100E10835 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 		3D59222C2B81ED8C00289126 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3D5922352B81EE7B00289126 /* TabViewController.swift */,
+				3D5922372B81EE8A00289126 /* SettingsViewController.swift */,
+				3D5922392B81EE9600289126 /* WeatherViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -198,11 +207,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5922342B81EDE200289126 /* WeatherManager.swift in Sources */,
+				3D59223A2B81EE9600289126 /* WeatherViewController.swift in Sources */,
 				3D5922302B81EDAC00289126 /* LocationManager.swift in Sources */,
 				3D5922322B81EDD000289126 /* IAPManager.swift in Sources */,
 				3DCC16DB2B286F6100E10835 /* ViewController.swift in Sources */,
 				3DCC16D72B286F6100E10835 /* AppDelegate.swift in Sources */,
+				3D5922362B81EE7B00289126 /* TabViewController.swift in Sources */,
 				3DCC16D92B286F6100E10835 /* SceneDelegate.swift in Sources */,
+				3D5922382B81EE8A00289126 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
